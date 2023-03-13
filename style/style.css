@@ -4,3 +4,14 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+:root {
+  --Black: #272a31;
+  --Orange: #ec5242;
+  --White: #d3d3d3;
+  --Grey: #414246;
+}
+
+.secondary-nav {
+  background-color: var(--Grey);
+}
