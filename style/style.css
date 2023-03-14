@@ -20,7 +20,7 @@ body {
 }
 
 .no-scroll { overflow: hidden; }
-
+.margin-top { margin-top: 10vw; }
 .display-flex-row {
   display: flex;
   flex-direction: row;
@@ -45,7 +45,7 @@ nav ul,
 /* Primary Navbar  */
 nav {
   display: flex;
-  box-shadow: 10px 10px 5px rgb(18, 24, 27);
+  box-shadow: 10px 10px 5px rgba(18, 24, 27, 0.3);
 }
 
 #logo {
@@ -56,7 +56,7 @@ nav {
 }
 
 .footer-logo {
-  width: 30vw;
+  width: 40vw;
 }
 
 footer img {
@@ -119,7 +119,6 @@ footer img {
 #intro h1,
 .intro-note,
 .intro-info,
-.section-header,
 .content-container,
 .see-more-btn {
   width: 90%;
@@ -129,6 +128,9 @@ footer img {
 #intro .section-header {
   text-align: unset;
   color: var(--Orange);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #intro h1 {
@@ -160,9 +162,9 @@ footer img {
   background-image: var(--Black), url(/images/diamond.png);
 }
 
-#main-program .section-header {
-  margin: 0 auto;
-}
+/* .section-header {
+  margin: 10vw auto 0 auto;
+} */
 
 .program {
   display: flex;
@@ -307,17 +309,20 @@ footer {
   padding: 10vw 0;
 }
 
+footer .content-container {
+  align-items: center;
+}
 .footer-note {
   font-size: 100%;
   margin-left: 2rem;
 }
 
-hr {
+.hr-section {
   width: 40px;
   margin: auto;
   margin-top: 10px;
   border-color: var(--Orange);
-  margin-bottom: 30px;
+  margin-bottom: 1.8rem;
 }
 
 @media only screen and (min-width: 768px) {

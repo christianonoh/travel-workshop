@@ -1,0 +1,77 @@
+@import "../style/style.css";
+
+main {
+  text-align: center;
+}
+
+.intro-note {
+  border: none;
+  width: 100%;
+  background-color: #f8f8f8;;
+  padding: 5%;
+  color: var(--Grey);
+  margin: 0;
+}
+
+.intro-info {
+  width: 100%;
+  margin: 0;
+  padding: 10% 10% 0 10%;
+}
+
+.about-email {
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+/* About Logo  */
+
+.about-logo img {
+  /* max-width: 25rem; */
+  width: 60%;
+  padding: 3%;
+}
+
+/* Recent Tours  */
+.recent-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem auto;
+  overflow: hidden;
+}
+
+.recent-image-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(177, 19, 19, 0.5);
+  transition: 1s ease-in-out;
+}
+
+.recent-image-container img {
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.recent-tour-note {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+}
+
+.recent-image-container:hover img {
+  transform: scale(1.05);
+}
+
+/* .recent-image-container:hover + .recent-image-container::before {
+  background-color:  rgba(0, 0, 0, 0.5);
+  transition: background-color 2s ease;
+} */
+
