@@ -18,7 +18,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-
+.display-none { display: none; }
 .no-scroll { overflow: hidden; }
 .margin-top { margin-top: 10vw; }
 
@@ -28,16 +28,11 @@ body {
 }
 
 .display-flex-column {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
 }
 
 /* Navbars  */
-
-nav ul {
-  position: relative;
-  align-items: center;
-}
 
 nav ul,
 .secondary-nav ul {
@@ -47,7 +42,10 @@ nav ul,
 
 
 /* Primary Navbar  */
-nav { display: flex; }
+nav { 
+  display: flex;
+  position: relative;
+ }
 
 #logo {
   width: 40%;
@@ -56,13 +54,9 @@ nav { display: flex; }
   padding: 1rem;
 }
 
-.footer-logo {
-  width: 40vw;
-}
+.footer-logo { width: 40vw; }
 
-footer img {
-  width: 100%;
-}
+footer img { width: 100%; }
 
 .speaker-image-container img {
   width: 90%;
@@ -79,20 +73,13 @@ footer img {
 .close-menu-icon {
   font-size: 2rem;
   position: absolute;
-  left: 1rem;
+  left: 1.4rem;
   top: 1rem;
   order: 1;
 }
 
-.nav-item,
-.secondary-nav,
-.nav-btn,
-.close-menu-icon {
-  display: none;
-}
-
 .nav-link {
-  color: var(--Grey);
+  color: var(--Orange);
   font-weight: 600;
 }
 
@@ -325,6 +312,36 @@ footer {
   margin-bottom: 1.8rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .secondary-nav,
+  .menu-items,
+  .nav-btn { display: none; }
+
+  .menu-items {
+    height: 70vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #fff;
+    justify-content: center;
+  }
+
+  .nav-item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .nav-item:hover {
+    background-color: #272a31;
+  } 
+  .nav-item:hover .nav-link {
+    color: #fff;
+  } 
+}
+
 @media only screen and (min-width: 768px) {
   body {
     font-weight: 700;
@@ -339,6 +356,8 @@ footer {
   /* Secondary Nav Bar  */
   .secondary-nav {
     background-color: var(--Grey);
+    font-weight: 500;
+    font-size: 0.8rem;
   }
 
   .open-menu-icon,
@@ -351,6 +370,7 @@ footer {
   .nav-btn,
   nav ul {
     display: flex;
+    align-items: center;
   }
 
   .secondary-nav ul {
@@ -377,6 +397,11 @@ footer {
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
+  }
+
+  .nav-link {
+    color: var(--Grey);
+    font-weight: 600;
   }
 
   #logo {
