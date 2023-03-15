@@ -62,19 +62,19 @@ main {
 
 .recent-tour-note {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   position: absolute;
+}
+
+.recent-tour-note span {
+  font-size: smaller;
+  font-weight: 500;
 }
 
 .recent-image-container:hover img {
   transform: scale(1.05);
 }
-
-/* .recent-image-container:hover + .recent-image-container::before {
-  background-color:  rgba(0, 0, 0, 0.5);
-  transition: background-color 2s ease;
-} */
 
 @media only screen and (min-width: 768px) {
   body {
@@ -88,7 +88,7 @@ main {
   .about-h1 {
     display: flex;
     width: 100%;
-    margin: 4rem auto;
+    margin: 5rem auto 2rem auto !important;
     justify-self: center;
     align-self: center;
   }

@@ -2,6 +2,7 @@
 const openMenu = document.querySelector('.open-menu-icon');
 const closeMenu = document.querySelector('.close-menu-icon');
 const menuItems = document.querySelector('.menu-items');
+const navItems = document.querySelectorAll('.nav-item');
 
 openMenu.addEventListener('click', () => {
   menuItems.classList.add('display-flex-column');
@@ -12,11 +13,18 @@ closeMenu.addEventListener('click', () => {
   document.body.classList.remove('no-scroll');
 });
 
+navItems.forEach((element) => {
+  element.addEventListener('click', () => {
+    menuItems.classList.remove('display-flex-column');
+    document.body.classList.remove('no-scroll');
+  });
+});
+
 // Speakers
 const speakers = [
   {
     imgSrc: 'images/harriet.png',
-    name: 'Harriet Onoh',
+    name: 'Echezona Onoh',
     position: 'CEO AriesFotos',
     bio: "With a passion for capturing the beauty and diversity of the world. With a keen eye for detail and a love of all things Afro, Harriet's photography celebrates the vibrancy and richness of African culture.",
   },
@@ -36,7 +44,7 @@ const speakers = [
     imgSrc: 'images/uzo.png',
     name: 'Uzoamaka Alor',
     position: 'Software Developer',
-    bio: 'With a deep understanding of software engineering and a love for innovation, Jennifer is always at the forefront of technology development. Her passion for technology is a reflection of her creativity and her commitment to shaping the future.',
+    bio: 'With a deep understanding of software engineering and a love for innovation, Uzoamaka is always at the forefront of technology development. Her passion for technology is a reflection of her creativity and her commitment to shaping the future.',
   },
   {
     imgSrc: 'images/peny.png',
@@ -45,9 +53,9 @@ const speakers = [
     bio: "An experienced tour guide with a love for adventure. With a deep knowledge of local history and a passion for exploration, he leads tours that are both informative and exciting, from taking visitors on a hike through the local wilderness or leading a walking tour of the city's historic landmarks.",
   },
   {
-    imgSrc: 'images/harriet.png',
-    name: 'Harriet Onoh',
-    position: 'CEO AriesFotos',
+    imgSrc: 'images/ibrahim.png',
+    name: 'Ibrahim Ezeani',
+    position: 'Medical Lab Scientist',
     bio: 'with  richness of African culture.',
   },
 ];
