@@ -3,6 +3,7 @@
 main {
   text-align: center;
 }
+#intro .section-header { margin: 1rem auto; }
 
 .intro-note {
   border: none;
@@ -80,14 +81,21 @@ main {
     text-align: center;
   }
 
-  .container {
-    border: 2px solid blue;
+  .recent-tours {
+    margin: auto auto 4rem auto;
   }
 
-  #intro h1 {
+  .about-h1 {
     display: flex;
     width: 100%;
+    margin: 4rem auto;
     justify-self: center;
+    align-self: center;
+  }
+
+  .container,
+  .recent-tours {
+    max-width: 70rem;
   }
 
   .intro-note {
