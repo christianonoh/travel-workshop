@@ -15,37 +15,37 @@ closeMenu.addEventListener('click', () => {
 // Speakers
 const speakers = [
   {
-    imgSrc: '/images/harriet.png',
+    imgSrc: 'images/harriet.png',
     name: 'Harriet Onoh',
     position: 'CEO AriesFotos',
     bio: "With a passion for capturing the beauty and diversity of the world. With a keen eye for detail and a love of all things Afro, Harriet's photography celebrates the vibrancy and richness of African culture.",
   },
   {
-    imgSrc: '/images/obinna.png',
+    imgSrc: 'images/obinna.png',
     name: 'Noble Chinwendu',
     position: 'Transactional Lawyer',
     bio: "A skilled transactional lawyer with a wealth of experience in corporate law. As a passionate foodie, when he's not providing expert legal advice to his clients, he's trying out the latest restaurant or whipping up a meal in his own kitchen.",
   },
   {
-    imgSrc: '/images/winifred.png',
+    imgSrc: 'images/winifred.png',
     name: 'Ogochukwu W. Edeh',
     position: 'CEO Winafric Clothings',
     bio: 'A talented fashion designer with a deep expertise in Afro textiles. Her designs celebrate the beauty and diversity of African cultures and empower people to express themselves through their clothing.',
   },
   {
-    imgSrc: '/images/uzo.png',
+    imgSrc: 'images/uzo.png',
     name: 'Uzoamaka Alor',
     position: 'Software Developer',
     bio: 'With a deep understanding of software engineering and a love for innovation, Jennifer is always at the forefront of technology development. Her passion for technology is a reflection of her creativity and her commitment to shaping the future.',
   },
   {
-    imgSrc: '/images/peny.png',
+    imgSrc: 'images/peny.png',
     name: 'Chidiebere Ochu',
     position: 'CEO Ngworocks',
     bio: "An experienced tour guide with a love for adventure. With a deep knowledge of local history and a passion for exploration, he leads tours that are both informative and exciting, from taking visitors on a hike through the local wilderness or leading a walking tour of the city's historic landmarks.",
   },
   {
-    imgSrc: '/images/harriet.png',
+    imgSrc: 'images/harriet.png',
     name: 'Harriet Onoh',
     position: 'CEO AriesFotos',
     bio: 'with  richness of African culture.',
