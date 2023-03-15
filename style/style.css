@@ -16,7 +16,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Lato', sans-serif;
   font-style: normal;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .display-none { display: none; }
 .no-scroll { overflow: hidden; }
@@ -328,14 +328,14 @@ hr {
 
 footer .content-container {
   display: flex;
-  width: 80%;
+  width: 80vw;
   align-items: center;
   justify-content: space-between;
 }
 
 /* Partner slide  */
 #partners .content-container {
-  width: 62.5rem;
+  width: 80%;
   position: relative;
   height: 6.3rem;
   display: flex;
@@ -407,6 +407,10 @@ footer {
     margin-bottom: 1.5rem;
   }
 
+  #partners {
+    width: 100vw;
+    overflow: hidden;
+  }
   .partner-logo {
     flex-basis: 20px;
     border: 1px solid red;
