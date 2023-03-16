@@ -4,15 +4,19 @@ const closeMenu = document.querySelector('.close-menu-icon');
 const menuItems = document.querySelector('.menu-items');
 const navItems = document.querySelectorAll('.nav-item');
 
+//Open Menu
 openMenu.addEventListener('click', () => {
   menuItems.classList.add('display-flex-column');
   document.body.classList.add('no-scroll');
 });
+
+//Close menu
 closeMenu.addEventListener('click', () => {
   menuItems.classList.remove('display-flex-column');
   document.body.classList.remove('no-scroll');
 });
 
+//Close menu when any link on the menu list is clicked
 navItems.forEach((element) => {
   element.addEventListener('click', () => {
     menuItems.classList.remove('display-flex-column');
