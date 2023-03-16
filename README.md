@@ -4,14 +4,11 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🎥 Project Presentation](#project-presentation)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Setup](#setup)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -21,31 +18,32 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portfolio Website (Mobile) <a name="about-project"></a>
+# 📖 Travel & Workshop <a name="about-project"></a>
 
-**Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills. Users can register for the event, explore destinations, and sign up for workshops and activities.
+**Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills. Users can register for the event, explore destinations, and sign up for workshops and activities.**
 ## 🛠️ Built With <a name="built-with"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="">HTML</a></li>
-    <li><a href="">CSS</a></li>
-    <li><a href="">Javascript</a></li>
-  </ul>
-</details>
-
-### Tech Stack <a name="tech-stack"></a>
-
+### Tech Stack
+- HTML
+- CSS
+- Javascript
+- VS studio as IDE
+- Font awesome
+### Key Features
+- Responsive design
+- Hover effects
 <!-- Features -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Project Presentation -->
+
+## 🎥 Project Presentation <a name="project-presentation"></a>
+- [Project Presentation Link](https://www.loom.com/share/9a173b99953b47f29584cf319c9fb947)
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://christianonoh.github.io/travel-workshop/
+- [Live Demo Link](https://christianonoh.github.io/travel-workshop/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,9 +61,9 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-cd my-folder [https://github.com/christianonoh/travel-workshop.git]
+- Clone this repository from the main branch to your desired folder.
+- Navigate to `travel-workshop` folder.
+- Run the index.html on a browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +103,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐ Show your support <a name="support"></a>
 
-If you like this project follow and add a star.
+If you like this project, please follow and add a star. ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +111,8 @@ If you like this project follow and add a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to give a special thanks to my coding partners for their support and contributions to this project. 
+- Original design idea by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) on Behance.
+- I would like to give a special thanks to my coding partners for their support and contributions to this project. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
