@@ -312,6 +312,7 @@ hr {
 #partners {
   background-color: var(--Grey);
   padding: 5vw 0;
+  overflow: hidden !important;
 }
 
 #partners .section-header {
@@ -331,7 +332,7 @@ footer .content-container {
   position: relative;
   height: 6.3rem;
   display: flex;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .slide {
@@ -399,8 +400,8 @@ footer { padding: 1rem 0; }
 
   #partners {
     width: 100vw;
-    overflow: hidden;
   }
+
   .partner-logo {
     flex-basis: 20px;
     border: 1px solid red;
@@ -488,6 +489,11 @@ footer { padding: 1rem 0; }
     padding: 0.5rem;
     order: 0;
     margin-left: 0;
+  }
+
+  .slide img {
+    height: 5rem;
+    padding: 0 2.5rem;
   }
 
   #logo img {
@@ -640,25 +646,18 @@ footer { padding: 1rem 0; }
 
   /* Partners  */
   #partners .content-container {
-    width: 62.5rem;
+    width: 70%;
     height: 7.5rem;
   }
 
-  .slide {
-    height: 7.5rem;
-  }
-.slide img {
-    height: 5rem;
-    padding: 0 2.5rem;
-  }
+  .slide { height: 7.5rem; }
+
 
   /* Footer  */
   .footer-note {
     font-size: 1rem;
     margin-left: 2rem;
   }
-
-  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -686,4 +685,16 @@ footer { padding: 1rem 0; }
     margin-top: 2rem;
   }
   #speakers .content-container { max-width: 75rem; }
+
+  #partners .content-container {
+    width: 70%;
+    height: 8rem;
+  }
+
+  .slide { height: 8rem; }
+
+  .slide img {
+    height: 6rem;
+    padding: 0 3.5rem;
+  }
 }

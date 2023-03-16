@@ -135,6 +135,7 @@ main {
     color: #fff;
     background-color: rgb(39, 42, 49);
   }
+
   .footer-logo {
     height: calc(50px + 2vw);
     width: calc(150px + 2vw);
