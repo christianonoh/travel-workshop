@@ -36,7 +36,6 @@ button {
   cursor: pointer;
 }
 
-
 /* Navbars  */
 nav {
   background-color: #fff;
@@ -47,7 +46,6 @@ nav {
 .secondary-nav ul {
   list-style: none;
 }
-
 
 /* Primary Navbar  */
 .nav {
@@ -651,7 +649,6 @@ footer { padding: 1rem 0; }
   }
 
   .slide { height: 7.5rem; }
-
 
   /* Footer  */
   .footer-note {
