@@ -76,6 +76,15 @@ main {
   transform: scale(1.05);
 }
 
+.footer-logo {
+  height: calc(50px + 2vw);
+  width: calc(120px + 2vw);
+  background-image: url(../images/logo_grey.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     text-align: center;
@@ -125,5 +134,13 @@ main {
   footer {
     color: #fff;
     background-color: rgb(39, 42, 49);
+  }
+  .footer-logo {
+    height: calc(50px + 2vw);
+    width: calc(150px + 2vw);
+    background-image: url(../images/logo_white.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
