@@ -56,7 +56,7 @@ const speakers = [
     imgSrc: 'images/ibrahim.png',
     name: 'Ibrahim Ezeani',
     position: 'Medical Lab Scientist',
-    bio: 'with  richness of African culture.',
+    bio: 'Enjoys exploring new destinations and cultures while incorporating his knowledge of health and wellness into his travels. Ibrahim is passionate about sharing his health tips and knowledge with others, hoping to inspire them to lead healthier and happier lives.',
   },
 ];
 
