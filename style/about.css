@@ -1,0 +1,147 @@
+@import "../style/style.css";
+
+main {
+  text-align: center;
+}
+#intro .section-header { margin: 1rem auto; }
+
+.intro-note {
+  border: none;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 5%;
+  color: var(--Grey);
+  margin: 0;
+}
+
+.intro-info {
+  width: 100%;
+  margin: 0;
+  padding: 10% 10% 0 10%;
+}
+
+.about-email {
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+/* About Logo  */
+
+.about-logo img {
+  /* max-width: 25rem; */
+  width: 60%;
+  padding: 3%;
+}
+
+/* Recent Tours  */
+.recent-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem auto;
+  overflow: hidden;
+}
+
+.recent-image-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(177, 19, 19, 0.5);
+  transition: 1s ease-in-out;
+}
+
+.recent-image-container img {
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.recent-tour-note {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  position: absolute;
+}
+
+.recent-tour-note span {
+  font-size: smaller;
+  font-weight: 500;
+}
+
+.recent-image-container:hover img {
+  transform: scale(1.05);
+}
+
+.footer-logo {
+  height: calc(50px + 2vw);
+  width: calc(120px + 2vw);
+  background-image: url(../images/logo_grey.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  .recent-tours {
+    margin: auto auto 4rem auto;
+  }
+
+  .about-h1 {
+    display: flex;
+    width: 100%;
+    margin: 5rem auto 2rem auto !important;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .container,
+  .recent-tours {
+    max-width: 70rem;
+  }
+
+  .intro-note {
+    font-size: 1rem;
+  }
+
+  /* Logo  */
+  .about-logo .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recent-tours-note {
+    width: 100%;
+  }
+
+  .recent-tours .content-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .recent-image-container {
+    width: 40%;
+    height: auto;
+  }
+
+  footer {
+    color: #fff;
+    background-color: rgb(39, 42, 49);
+  }
+
+  .footer-logo {
+    height: calc(50px + 2vw);
+    width: calc(150px + 2vw);
+    background-image: url(../images/logo_white.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
