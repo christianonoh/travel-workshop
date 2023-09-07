@@ -43,7 +43,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://christianonoh.github.io/travel-workshop/)
+- [Live Demo Link](https://christianonoh.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
